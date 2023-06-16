@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import Characters from './pages/Characters';
+import Ratings from './pages/Ratings';
+import Savinglist from './pages/Savinglist';
+import Footer from './components/Footer';
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { Routes, Route } from 'react-router-dom';
+import './style/index.css';
+import Account from './pages/Account';
 
 function App() {
+	
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>Rick & Morty</title>
+      </Helmet>
+      <header>
+        <div className='container'>
+          <Header />
+        </div>
       </header>
-    </div>
+      <main>
+        <div className='container'>
+          <Routes>
+            <Route exact path='/' element={<Characters />} />
+            <Route exact path='/Ratings' element={<Ratings />} />
+            <Route exact path='/Saving-list' element={<Savinglist />} />
+            <Route exact path='/Account' element={<Account />} />
+          </Routes>
+        </div>
+      </main>
+      <div>
+        <Footer />
+      </div>
+    </>
   );
 }
 

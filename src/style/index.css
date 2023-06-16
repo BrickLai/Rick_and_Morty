@@ -1,0 +1,244 @@
+@import "./reset.css";
+
+    .imageBanner{
+        margin-top: 100px;
+    }
+
+  .buttons {
+    display: flex;
+    margin: 50px 0px;
+    justify-content: right;
+  }
+  
+  .buttons button {
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    
+  }
+  
+  .buttons button + button {
+    margin-left: 20px;
+  }
+  
+  .buttons .sort {
+    background-color: #000000;
+    color: #fff;
+    
+  }
+  
+  .buttons .add {
+    background-color: #40b5cb;
+    color: #fff;
+    
+  }
+  
+  .character {
+    background-color: #40b5cb;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .character figure {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .character img {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .listInfo {
+    align-items: center;
+    display: flex;
+    height: calc(100vh - 50px);
+    justify-content: center;
+    color: #40b5cb;
+  }
+  
+  .listInfo div + div {
+    margin-left: 50px;
+  }
+  
+  .listInfo img {
+    border-radius: 10px;
+    margin: 0 auto;
+
+  }
+  
+  .listInfo h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 10px 0px;
+  }
+  
+  .listInfo p {
+    font-size: 18px;
+    letter-spacing: 2.5px;
+  }
+  
+  .listInfo p + p {
+    margin-top: 5px;
+  }
+  
+  .character-info {
+    margin: auto 0;
+    
+  }
+  
+  .character-info h2 {
+    letter-spacing: 1.25px;
+    font-size: 14px;
+  }
+
+  .character-info p {
+    font-size: 12px;
+    color: #000;
+  }
+  
+  .character-info h4 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+  
+  .container {
+    margin-inline: auto;
+    width: min(100% - 30px, 1080px);
+  }
+  
+  .headerlinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.logo-image{
+    height: 50px;
+}
+
+  .grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-content: center;
+  }
+  
+  .icon-left {
+    cursor: pointer;
+    font-size: 40px;
+    inset: 50% auto auto 45px;
+    position: fixed;
+  }
+  
+  .icon-right {
+    cursor: pointer;
+    font-size: 40px;
+    inset: 50% 45px auto auto;
+    position: fixed;
+  }
+  
+
+  .open {
+    background-color: #0c5adb;
+    color: #fff;
+    inset: auto 50px 50px auto;
+    position: fixed;
+  }
+  
+
+  
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+
+    color: #fff;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+
+
+  header {
+    background-color: #C1D0B5;
+    color: #000;
+    font-size: 0px;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  header .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  
+  header nav ul li {
+    cursor: pointer;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+  }
+  
+  header nav ul li + li {
+    margin-left: 15px;
+  }
+  
+.ratingsCharacter{
+    color: #000;
+    margin-top: 100px;
+}
+
+.listCharacter{
+    color: #000;
+    margin-top: 100px;
+}
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #C1D0B5;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.footerContent{
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    text-align:justify;
+    color: #000;
+    margin: 0 20%;
+    gap:50px;
+    list-style-type: none;
+}
+
+.accountInfo{
+    margin: 50px 0 300px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 120px);
+}
