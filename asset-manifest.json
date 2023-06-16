@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Rick_and_Morty/static/css/main.93518d61.css",
+    "main.js": "/Rick_and_Morty/static/js/main.defbc88c.js",
+    "static/media/635.png": "/Rick_and_Morty/static/media/635.3ca61beffd1efa563f04.png",
+    "static/media/promortyus-banner.jpg": "/Rick_and_Morty/static/media/promortyus-banner.d1e2636a707b48eed527.jpg",
+    "static/media/66133.jpg": "/Rick_and_Morty/static/media/66133.efe0a3d301782e438d4d.jpg",
+    "static/media/Rick_and_Morty.svg.png": "/Rick_and_Morty/static/media/Rick_and_Morty.svg.9d987000b1a6f6e35505.png",
+    "static/media/404.png": "/Rick_and_Morty/static/media/404.947abce38678c96d2ea1.png",
+    "index.html": "/Rick_and_Morty/index.html",
+    "main.93518d61.css.map": "/Rick_and_Morty/static/css/main.93518d61.css.map",
+    "main.defbc88c.js.map": "/Rick_and_Morty/static/js/main.defbc88c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93518d61.css",
+    "static/js/main.defbc88c.js"
+  ]
+}
